@@ -1,0 +1,107 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 380px) {}
+
+@media (max-width: 480px) {
+    .common-section,
+    .special-offer-section .overlay,
+    .contact-us-section .overlay {
+        padding: 50px 0;
+    }
+    .special-offer-section {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:575px) {}
+
+
+/*Small devices (landscape phones, less than 768px)*/
+
+@media (max-width:767px) {
+    .cover-heading {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .cover-heading span {
+        font-size: 38px;
+    }
+    .section-heading.text-center h2 {
+        font-size: 36px;
+    }
+    .provide-content-wrapper {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .testimonial-content p {
+        margin-bottom: 0;
+    }
+    .testimonial-slider .testimonial-content span {
+        margin-top: 30px;
+    }
+    .box .description {
+        display: block;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .box .title {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .box .post {
+        margin-bottom: 0;
+    }
+    .box .box-content {
+        padding: 5px 10px;
+    }
+}
+
+
+/*Medium devices (tablets, less than 992px)*/
+
+@media (max-width:991px) {
+    .main-menu li,
+    .main-menu .navbar-nav {
+        display: block;
+    }
+    .navbar-light .navbar-nav .logo-item .nav-link img {
+        width: 45px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 10px;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+}
+
+@media only screen and (max-width:990px) {
+    .box {
+        margin-bottom: 30px;
+    }
+    .box .box-content {
+        padding: 10px;
+    }
+    .box .description {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .box .title {
+        margin: 0;
+    }
+}
+
+@media (max-width:1024px) {}
+
+
+/*Large devices (desktops, gater than 1400px)*/
+
+@media (min-width:1399px) {}
+
+
+/*Large devices (desktops, less than 1200px)*/
+
+@media (max-width:1199px) {}
